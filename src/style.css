@@ -1,0 +1,64 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  transition: transform 1s ease;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 1s ease, transform 1s ease;
+}
+
+button:hover {
+  background-color: #ab0000;
+}
+
+button:active {
+  transform: scale(0.95); /* Add a slight scale when button is clicked */
+}
+
+#questionContainer {
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #ab0000;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+}
+
+#questionContainer p {
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* Keyframe animation for the entire page */
+@keyframes countdown {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply the animation to the body when the button is clicked */
+body.animate {
+  animation: countdown 2s ease; /* Adjust duration as needed */
+}
