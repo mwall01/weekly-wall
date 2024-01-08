@@ -2,9 +2,21 @@
   "name": "your-project",
   "version": "1.0.0",
   "scripts": {
-    "brick": "open weekly-wall.html"
+    "start": "open src/weekly-wall.html"
   },
   "devDependencies": {
-    "open": "^0.0.7"
-  }
+    "open": "^8.0.0"
+  },
+  "description": "To launch the Weekly Wall run",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwall01/weekly-wall.git"
+  },
+  "author": "mwall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwall01/weekly-wall/issues"
+  },
+  "homepage": "https://github.com/mwall01/weekly-wall#readme"
 }
