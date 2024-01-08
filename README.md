@@ -3,5 +3,5 @@
 To launch the Weekly Wall run 
 
 ```js
-npm brick
+npm start
 ```
