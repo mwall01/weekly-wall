@@ -1,0 +1,10 @@
+{
+  "name": "your-project",
+  "version": "1.0.0",
+  "scripts": {
+    "brick": "open weekly-wall.html"
+  },
+  "devDependencies": {
+    "open": "^0.0.7"
+  }
+}
