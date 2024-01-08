@@ -1,6 +1,9 @@
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f0f0f0;
+  font-family: 'Verdana', sans-serif;
+  background-image: url('enya.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -8,18 +11,20 @@ body {
 }
 
 h1 {
-  color: #333;
+  color: rgb(255, 255, 255);
+  margin-top: 275px;
 }
 
 button {
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 24px;
   background-color: #000000;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 1s ease, transform 1s ease;
+  margin-top: 15px;
 }
 
 button:hover {
@@ -43,6 +48,16 @@ button:active {
   font-size: 18px;
   color: #ffffff;
   margin: 0;
+}
+
+#imageContainer {
+  margin: 20px auto;
+}
+
+#imageContainer img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block; /* Ensure the image does not have extra space below */
 }
 
 /* Keyframe animation for the entire page */
