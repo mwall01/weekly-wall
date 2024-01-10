@@ -60,20 +60,23 @@ button:active {
   display: block; /* Ensure the image does not have extra space below */
 }
 
-/* Keyframe animation for the entire page */
-@keyframes countdown {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
+#loadingText::after {
+  content: '';
+  display: inline-block;
+  animation: loading 2s infinite;
 }
 
-/* Apply the animation to the body when the button is clicked */
-body.animate {
-  animation: countdown 2s ease; /* Adjust duration as needed */
+@keyframes loading {
+  0% {
+    content: ' ';
+  }
+  25% {
+    content: '.';
+  }
+  50% {
+    content: '..';
+  }
+  75% {
+    content: '...';
+  }
 }

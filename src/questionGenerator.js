@@ -1,4 +1,3 @@
-// Array of questions
 const questions = [
   'Where would you like to go on your next trip?',
   'What is your go-to meal when you have to cook something quick?',
@@ -18,28 +17,36 @@ const questions = [
   'Whats a Movie you can watch on repeat?',
   'Top 3 ice cream flavors?',
   'What is your most-used emoji?',
-  'Guilty TV or Movie pleasure, share with the class?'
+  'Guilty TV or Movie pleasure, share with the class?',
+  'What is your favourite month?'
 ];
 
-// Function to generate a random question
 function getRandomQuestion() {
   const randomIndex = Math.floor(Math.random() * questions.length);
   return questions[randomIndex];
 }
 
-// Function to handle button click
 function handleButtonClick() {
-  const randomQuestion = getRandomQuestion();
-  // alert(randomQuestion); // Can replace this with any other way of displaying the question
-  displayQuestion(randomQuestion);
-
-  // Add the 'animate' class to the body
-  document.body.classList.add('animate');
-
-  // Remove the 'animate' class after the animation duration
+  displayLoading();
   setTimeout(() => {
-    document.body.classList.remove('animate');
-  }, 2000); // Adjust the duration (in milliseconds) to match the animation duration  
+    const randomQuestion = getRandomQuestion();
+    displayQuestion(randomQuestion);
+  }, 2000);
+}
+
+function displayLoading() {
+  const questionContainer = document.getElementById('questionContainer');
+  questionContainer.innerHTML = '<p id="loadingText">Building</p>';
+  const loadingText = document.getElementById('loadingText');
+  animateLoading(loadingText, 0);
+}
+
+function animateLoading(element, count) {
+  setTimeout(() => {
+    const dots = '...'.substring(0, count % 4);
+    element.textContent = 'Building' + dots;
+    animateLoading(element, count + 1);
+  }, 500);
 }
 
 function displayQuestion(question) {
@@ -50,8 +57,6 @@ function displayQuestion(question) {
   questionContainer.appendChild(questionElement);
 }
 
-// Get the button element
 const generateButton = document.getElementById('generateButton');
 
-// Add a click event listener to the button
 generateButton.addEventListener('click', handleButtonClick);
