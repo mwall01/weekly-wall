@@ -7,8 +7,6 @@ const questions = [
   'If you could only have one sandwich for the rest of your life, what would it be?',
   'What is your favorite ice cream flavor? Do you prefer a cone or a cup?',
   'What is your favorite fast food place?',
-  'Window seat or aisle seat?',
-  'How many unread emails are there in your inbox?',
   'What is something interesting about where you grew up?',
   'What is your favourite podcast?',
   'What is your favourite kitchen appliance?',
@@ -19,6 +17,10 @@ const questions = [
   'What is your most-used emoji?',
   'Guilty TV or Movie pleasure, share with the class?',
   'What is your favourite month?'
+];
+
+const used = [
+  'Window seat or aisle seat?',
 ];
 
 function getRandomQuestion() {
