@@ -3,7 +3,6 @@ const questions = [
   'What is your go-to meal when you have to cook something quick?',
   'What is the last movie you watched?',
   'What is your go-to breakfast? Is it sweet or savory?',
-  'Which movie do you think has the best soundtrack?',
   'If you could only have one sandwich for the rest of your life, what would it be?',
   'What is your favorite ice cream flavor? Do you prefer a cone or a cup?',
   'What is your favorite fast food place?',
@@ -21,6 +20,7 @@ const questions = [
 
 const used = [
   'Window seat or aisle seat?',
+  'Which movie do you think has the best soundtrack?',
 ];
 
 function getRandomQuestion() {
