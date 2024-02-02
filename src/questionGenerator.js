@@ -16,7 +16,11 @@ const questions = [
   'Top 3 ice cream flavors?',
   'What is your most-used emoji?',
   'Guilty TV or Movie pleasure, share with the class?',
-  'What is your favourite month?'
+  'What is your favourite month?',
+  'What would be your entrance music if you were a WWE wrestler?',
+  'What food did you hate eating as a child?',
+  'What was your first memory of using a computer?',
+  'What would be the name of your talk show?',
 ];
 
 const used = [
