@@ -1,5 +1,4 @@
 const questions = [
-  'Where would you like to go on your next trip?',
   'What is your go-to meal when you have to cook something quick?',
   'What is the last movie you watched?',
   'If you could only have one sandwich for the rest of your life, what would it be?',
@@ -21,6 +20,7 @@ const used = [
   'Window seat or aisle seat?',
   'Which movie do you think has the best soundtrack?',
   'What is your go-to breakfast? Is it sweet or savory?',
+  'Where would you like to go on your next trip?',
 ];
 
 function getRandomQuestion() {
