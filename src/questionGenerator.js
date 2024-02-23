@@ -6,12 +6,18 @@ const questions = [
   'What is your favorite fast food place?',
   'What is something interesting about where you grew up?',
   'What is your favourite podcast?',
+  'You can only have one, would you rather have a cook or a maid?',
   'What is your favourite kitchen appliance?',
   'Irish Lottery - would you rather win 3 million or the 20k a month prize for 30 years?',
   'What is your favorite cereal?',
   'Whats a Movie you can watch on repeat?',
   'Top 3 ice cream flavors?',
-  'What is your most-used emoji?',
+  'Type of music you were raised on',
+  'Would you rather live in a place where it is always hot or always cold?',
+  'Would you rather explore space or the ocean?',
+  'What is your favorite app on your phone?',
+  'What is your favorite childhood TV show or cartoon?',
+  'Death Row last meal - any meal, any restaurant in the world',
   'Guilty TV or Movie pleasure, share with the class?',
   'What is your favourite month?'
 ];
@@ -21,6 +27,7 @@ const used = [
   'Which movie do you think has the best soundtrack?',
   'What is your go-to breakfast? Is it sweet or savory?',
   'Where would you like to go on your next trip?',
+  'What is your most-used emoji?',
 ];
 
 function getRandomQuestion() {
