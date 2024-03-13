@@ -1,10 +1,7 @@
 const questions = [
-  'What is your go-to meal when you have to cook something quick?',
   'What is the last movie you watched?',
-  'If you could only have one sandwich for the rest of your life, what would it be?',
   'What is your favorite ice cream flavor? Do you prefer a cone or a cup?',
   'What is your favorite fast food place?',
-  'What is something interesting about where you grew up?',
   'What is your favourite podcast?',
   'You can only have one, would you rather have a cook or a maid?',
   'What is your favourite kitchen appliance?',
@@ -28,6 +25,9 @@ const used = [
   'What is your go-to breakfast? Is it sweet or savory?',
   'Where would you like to go on your next trip?',
   'What is your most-used emoji?',
+  'What is your go-to meal when you have to cook something quick?',
+  'If you could only have one sandwich for the rest of your life, what would it be?',
+  'What is something interesting about where you grew up?',
 ];
 
 function getRandomQuestion() {
@@ -40,7 +40,7 @@ function handleButtonClick() {
   setTimeout(() => {
     const randomQuestion = getRandomQuestion();
     displayQuestion(randomQuestion);
-  }, 2000);
+  }, 3000);
 }
 
 function displayLoading() {

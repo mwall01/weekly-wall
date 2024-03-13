@@ -1,5 +1,6 @@
 body {
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Mont', sans-serif;
+  font-size: 54px;
   background-image: url('enya.jpg');
   background-size: cover;
   background-position: center top;
@@ -11,15 +12,15 @@ body {
 }
 
 h1 {
-  color: rgb(255, 255, 255);
+  color: hwb(127 4% 24%);
   margin-top: 275px;
 }
 
 button {
   padding: 10px 20px;
-  font-size: 24px;
-  background-color: #000000;
-  color: #fff;
+  font-size: 44px;
+  background-color: #ffb700;
+  color: hwb(127 4% 24%);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -28,7 +29,7 @@ button {
 }
 
 button:hover {
-  background-color: #ab0000;
+  background-color: hwb(127 4% 24%);
 }
 
 button:active {
@@ -38,14 +39,14 @@ button:active {
 #questionContainer {
   margin: 20px auto;
   padding: 15px;
-  background-color: #ab0000;
+  background-color: hwb(127 4% 24%);
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   max-width: 700px;
 }
 
 #questionContainer p {
-  font-size: 18px;
+  font-size: 38px;
   color: #ffffff;
   margin: 0;
 }
