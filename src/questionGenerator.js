@@ -1,6 +1,5 @@
 const questions = [
   'What is the last movie you watched?',
-  'If you could only have one sandwich for the rest of your life, what would it be?',
   'What is your favorite ice cream flavor? Do you prefer a cone or a cup?',
   'What is something interesting about where you grew up?',
   'What is your favourite podcast?',
@@ -22,8 +21,6 @@ const questions = [
   'Which Muppet represents you the best?',
   'Its the 90s, which Spice Girl are you taking a bullet for?',
   'Would you rather, give up Coffee or give up Pizza?',
-
-
 ];
 
 const used = [
@@ -33,6 +30,8 @@ const used = [
   'Where would you like to go on your next trip?',
   'What is your most-used emoji?',
   'What is your go-to meal when you have to cook something quick?',
+  'If you could only have one sandwich for the rest of your life, what would it be?',
+  'What is something interesting about where you grew up?',
 ];
 
 function getRandomQuestion() {
@@ -45,7 +44,7 @@ function handleButtonClick() {
   setTimeout(() => {
     const randomQuestion = getRandomQuestion();
     displayQuestion(randomQuestion);
-  }, 2000);
+  }, 3000);
 }
 
 function displayLoading() {
