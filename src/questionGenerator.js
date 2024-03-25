@@ -1,12 +1,13 @@
 const questions = [
   'What is the last movie you watched?',
   'What is your favorite ice cream flavor? Do you prefer a cone or a cup?',
-  'What is your favorite fast food place?',
+  'What is something interesting about where you grew up?',
   'What is your favourite podcast?',
   'You can only have one, would you rather have a cook or a maid?',
   'What is your favourite kitchen appliance?',
   'Irish Lottery - would you rather win 3 million or the 20k a month prize for 30 years?',
   'What is your favorite cereal?',
+  'What song lyrics best represent you?',
   'Whats a Movie you can watch on repeat?',
   'Top 3 ice cream flavors?',
   'Type of music you were raised on',
@@ -16,7 +17,10 @@ const questions = [
   'What is your favorite childhood TV show or cartoon?',
   'Death Row last meal - any meal, any restaurant in the world',
   'Guilty TV or Movie pleasure, share with the class?',
-  'What is your favourite month?'
+  'What is your favourite month?',
+  'Which Muppet represents you the best?',
+  'Its the 90s, which Spice Girl are you taking a bullet for?',
+  'Would you rather, give up Coffee or give up Pizza?',
 ];
 
 const used = [
