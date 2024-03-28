@@ -98,8 +98,8 @@ animation-duration: ${dur}s;
 } 
 
 const createBrick = (num) => {
-  for (var i = num; i > 0; i--) {
-    var brick = document.createElement("div");
+  for (let i = num; i > 0; i--) {
+    let brick = document.createElement("div");
     brick.className = "brick";
     brick.style.cssText = getRandomStyles();
     brick.innerHTML = brickContent[random(2)]
