@@ -21,20 +21,20 @@ const questions = [
   'Would you rather, give up Coffee or give up Pizza?',
 ];
 
-const used = [
-  'Window seat or aisle seat?',
-  'Which movie do you think has the best soundtrack?',
-  'What is your go-to breakfast? Is it sweet or savory?',
-  'Where would you like to go on your next trip?',
-  'What is your most-used emoji?',
-  'What is your go-to meal when you have to cook something quick?',
-  'If you could only have one sandwich for the rest of your life, what would it be?',
-  'What is something interesting about where you grew up?',
-  'Guilty TV or Movie pleasure, share with the class?',
-  'What is something interesting about where you grew up?',
-];
+// const used = [
+//   'Window seat or aisle seat?',
+//   'Which movie do you think has the best soundtrack?',
+//   'What is your go-to breakfast? Is it sweet or savory?',
+//   'Where would you like to go on your next trip?',
+//   'What is your most-used emoji?',
+//   'What is your go-to meal when you have to cook something quick?',
+//   'If you could only have one sandwich for the rest of your life, what would it be?',
+//   'What is something interesting about where you grew up?',
+//   'Guilty TV or Movie pleasure, share with the class?',
+//   'What is something interesting about where you grew up?',
+// ];
 
-function getRandomQuestion() {
+function getRandomQuestion () {
   const randomIndex = Math.floor(Math.random() * questions.length);
   return questions[randomIndex];
 }
