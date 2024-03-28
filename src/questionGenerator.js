@@ -73,3 +73,56 @@ function displayQuestion(question) {
 const generateButton = document.getElementById('generateButton');
 
 generateButton.addEventListener('click', handleButtonClick);
+
+//brick animation below//
+
+const brickContainer = document.getElementById("brick-container")
+
+const brickContent = [ '&#129521', '&#x1F9F1', ]
+
+const random = (num) => {
+  return Math.floor(Math.random() * num);
+}
+
+const getRandomStyles = () => {
+  const top = random(100);
+  const left = random(100);
+  const dur = random(10) + 10;
+  const size = random(25) + 25;
+  return ` 
+top: -${top}%; 
+left: ${left}%; 
+font-size: ${size}px; 
+animation-duration: ${dur}s; 
+`;
+} 
+
+const createBrick = (num) => {
+  for (var i = num; i > 0; i--) {
+    var brick = document.createElement("div");
+    brick.className = "brick";
+    brick.style.cssText = getRandomStyles();
+    brick.innerHTML = brickContent[random(2)]
+    brickContainer.append(brick);
+  }
+}
+
+const removeBrick = () => {
+  brickContainer.style.opacity = "0";
+  setTimeout(() => {
+    brickContainer.remove()
+  }, 500)
+}
+
+window.addEventListener("load", () => {
+  createBrick(30)
+  setTimeout(removeBrick, (1000 * 60))
+});
+
+window.addEventListener("click", () => {
+  removeBrick()
+});
+
+window.addEventListener("load", () => {
+  createBrick(30)
+});
