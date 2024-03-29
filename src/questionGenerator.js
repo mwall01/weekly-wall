@@ -5,7 +5,6 @@ const questions = [
   'You can only have one, would you rather have a cook or a maid?',
   'What is your favourite kitchen appliance?',
   'Irish Lottery - would you rather win 3 million or the 20k a month prize for 30 years?',
-  'What is your favorite cereal?',
   'What song lyrics best represent you?',
   'Whats a Movie you can watch on repeat?',
   'Top 3 ice cream flavors?',
@@ -32,6 +31,7 @@ const questions = [
 //   'What is something interesting about where you grew up?',
 //   'Guilty TV or Movie pleasure, share with the class?',
 //   'What is something interesting about where you grew up?',
+//   'What is your favorite cereal?',
 // ];
 
 function getRandomQuestion () {

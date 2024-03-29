@@ -32,7 +32,7 @@ button {
 
 button:hover {
   background-color: #592404;
-  -webkit-text-fill-color: #a1450b;
+  -webkit-text-fill-color: #ffffff;
 }
 
 button:active {
