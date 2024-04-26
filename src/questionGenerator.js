@@ -15,9 +15,7 @@ const questions = [
   'What is your favorite childhood TV show or cartoon?',
   'Death Row last meal - any meal, any restaurant in the world',
   'What is your favourite month?',
-  'Which Muppet represents you the best?',
   'Its the 90s, which Spice Girl are you taking a bullet for?',
-  'Would you rather, give up Coffee or give up Pizza?',
 ];
 
 // const used = [
@@ -32,6 +30,8 @@ const questions = [
 //   'Guilty TV or Movie pleasure, share with the class?',
 //   'What is something interesting about where you grew up?',
 //   'What is your favorite cereal?',
+//   'Which Muppet represents you the best?',
+//   'Would you rather give up Coffee or Pizza?,
 // ];
 
 function getRandomQuestion () {
