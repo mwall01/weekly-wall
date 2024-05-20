@@ -1,6 +1,5 @@
 const questions = [
   'What is the last movie you watched?',
-  'What is your favorite ice cream flavor? Do you prefer a cone or a cup?',
   'What is your favourite podcast?',
   'You can only have one, would you rather have a cook or a maid?',
   'What is your favourite kitchen appliance?',
@@ -15,7 +14,7 @@ const questions = [
   'What is your favorite childhood TV show or cartoon?',
   'Death Row last meal - any meal, any restaurant in the world',
   'What is your favourite month?',
-  'Its the 90s, which Spice Girl are you taking a bullet for?',
+  
 ];
 
 // const used = [
@@ -32,6 +31,8 @@ const questions = [
 //   'What is your favorite cereal?',
 //   'Which Muppet represents you the best?',
 //   'Would you rather give up Coffee or Pizza?,
+//   'Its the 90s, which Spice Girl are you taking a bullet for?',
+//    'What is your favorite ice cream flavor? Do you prefer a cone or a cup?',
 // ];
 
 function getRandomQuestion () {
