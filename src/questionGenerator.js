@@ -38,7 +38,7 @@ const questions = [
   'What is a life skill that you always wanted to learn and have never been able to?',
   'Are there any lessons that you had to learn the hard way?',
   'What is something that you cannot live without?',
-  'On a scale from one to tenhow would you rate this last week?',
+  'On a scale from one to ten; how would you rate this last week?',
   'Do you think there is any way that we are actually living in the Matrix?',
   'Is there a time in your life when you worked harder than ever before, and loved every minute of it?',
   'Would you rather time-travel ten years into the future or 100 years into the past?',
