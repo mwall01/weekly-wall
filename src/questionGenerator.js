@@ -16,7 +16,6 @@ const questions = [
   'Would you rather be able to speak any language fluently or speak with animals?',
   'Where do you see yourself in five years from now?',
   'What is your worst fear?',
-  'If your life was a movie, what would it be called?',
   'Would you rather be an expert at only one thing or average at a lot of things?',
   'Who was your role model growing up?',
   'What is the happiest memory that you have?',
@@ -47,6 +46,7 @@ const questions = [
 
 /*
 const used = [
+  'If your life was a movie, what would it be called?', 🤢🤢🤢🤢
  'You can only have one, would you rather have a cook or a maid?',
  'Would you rather live in a place where it is always hot or always cold?',
  'Irish Lottery - would you rather win 3 million or the 20k a month prize for 30 years?',
