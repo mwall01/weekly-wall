@@ -38,10 +38,26 @@ const questions = [
   'Are there any lessons that you had to learn the hard way?',
   'What is something that you cannot live without?',
   'On a scale from one to ten; how would you rate this last week?',
-  'Do you think there is any way that we are actually living in the Matrix?',
   'Is there a time in your life when you worked harder than ever before, and loved every minute of it?',
   'Would you rather time-travel ten years into the future or 100 years into the past?',
-  'What was the best thing before sliced bread?'
+  'What was the best thing before sliced bread?',
+  'What is your favourite cocktail?',
+  'What TV show are you watching atm?',
+  'You have your own late night talk show, who do you invite as your first guest? (Past/Present)',
+  'What\'s the best dish you can cook?',
+  'Cat or dog person?',
+  'Would you rather be able to run at 100 miles per hour or fly at 1 mile per hour?',
+  'If the rest of the team visited your hometown, what local spot would you bring us to?',
+  'If you could have any animal for a pet, what would it be?',
+  'Beach vacation or mountain retreat?',
+  'Sweet or savory?',
+  'Pizza with pineapple or pizza without cheese?',
+  'Communicate only through interpretive dance or have your life narrated by Morgan Freeman?',
+  'If you were the CEO for a day, what would you get for lunch?',
+  'If you could live in any fictional world, which would it be?',
+  'If you could live anywhere in the world for a year, where would it be?',
+  'If you could eliminate one food so no one could eat it ever again, what would it be?',
+  'Favourite pastry?'
 ];
 
 /*
@@ -66,6 +82,7 @@ const used = [
  'Would you rather give up Coffee or Pizza?,
  'Its the 90s, which Spice Girl are you taking a bullet for?',
   'What is your favorite ice cream flavor? Do you prefer a cone or a cup?',
+  'Do you think there is any way that we are actually living in the Matrix?',
 ];
 */
 
