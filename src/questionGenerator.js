@@ -23,7 +23,6 @@ const questions = [
   'Do you think it is possible to learn lessons without making mistakes first?',
   'If you were invisible for a day, what would you do?',
   'What makes you smile when you are having a bad day?',
-  'Would you rather live in the same place for the rest of your life, or have to move to a new country once a month for the next five years?',
   'What is the most spontaneous thing you have ever done?',
   'What was the best time of your life?',
   'If you got kidnapped, what would you do that would be so annoying that it would make your kidnappers return you?',
@@ -52,11 +51,9 @@ const questions = [
   'Beach vacation or mountain retreat?',
   'Sweet or savory?',
   'Pizza with pineapple or pizza without cheese?',
-  'Communicate only through interpretive dance or have your life narrated by Morgan Freeman?',
   'If you were the CEO for a day, what would you get for lunch?',
   'If you could live in any fictional world, which would it be?',
   'If you could live anywhere in the world for a year, where would it be?',
-  'If you could eliminate one food so no one could eat it ever again, what would it be?',
   'Favourite pastry?'
 ];
 
@@ -81,8 +78,11 @@ const used = [
  'Which Muppet represents you the best?',
  'Would you rather give up Coffee or Pizza?,
  'Its the 90s, which Spice Girl are you taking a bullet for?',
-  'What is your favorite ice cream flavor? Do you prefer a cone or a cup?',
-  'Do you think there is any way that we are actually living in the Matrix?',
+ 'What is your favorite ice cream flavor? Do you prefer a cone or a cup?',
+ 'Do you think there is any way that we are actually living in the Matrix?',
+ 'Would you rather live in the same place for the rest of your life, or have to move to a new country once a month for the next five years?'
+ 'Communicate only through interpretive dance or have your life narrated by Morgan Freeman?',
+ 'If you could eliminate one food so no one could eat it ever again, what would it be?',
 ];
 */
 
