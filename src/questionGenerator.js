@@ -54,7 +54,9 @@ const questions = [
   'If you were the CEO for a day, what would you get for lunch?',
   'If you could live in any fictional world, which would it be?',
   'If you could live anywhere in the world for a year, where would it be?',
-  'Favourite pastry?'
+  'Favourite pastry?',
+  'What sport would you perform in if you were to take part in the Olympics?',
+  'You are a zookeeper, what animals are you taking care of?'
 ];
 
 /*
