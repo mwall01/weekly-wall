@@ -32,12 +32,11 @@ const questions = [
   'What sport could you win in the Olympics if you were to train for the next 4 years?',
   'You are a zookeeper, what animals are you taking care of?',
   'If you had to live in someones walls, whos walls would you live in?',
-  'Who would you like to have living in your walls? (IF someone had to live in your walls)'
 ];
 
 /*
 const used = [
-  'If your life was a movie, what would it be called?', 🤢🤢🤢🤢
+ 'If your life was a movie, what would it be called?', 🤢🤢🤢🤢
  'You can only have one, would you rather have a cook or a maid?',
  'Would you rather live in a place where it is always hot or always cold?',
  'Irish Lottery - would you rather win 3 million or the 20k a month prize for 30 years?',
@@ -67,6 +66,7 @@ const used = [
  'Would you rather be able to run at 100 miles per hour or fly at 1 mile per hour?',
  'If the rest of the team visited your hometown, what local spot would you bring us to?',
  'Beach vacation or mountain retreat?',
+ 'Who would you like to have living in your walls? (IF someone had to live in your walls)'
 ];
 */
 
