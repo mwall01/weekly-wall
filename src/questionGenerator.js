@@ -20,7 +20,6 @@ const questions = [
   'What TV show are you watching atm?',
   'You have your own late night talk show, who do you invite as your first guest? (Past/Present)',
   'What\'s the best dish you can cook?',
-  'Cat or dog person?',
   'If you could have any animal for a pet, what would it be?',
   'Sweet or savory?',
   'Pizza with pineapple or pizza without cheese?',
@@ -66,7 +65,8 @@ const used = [
  'Would you rather be able to run at 100 miles per hour or fly at 1 mile per hour?',
  'If the rest of the team visited your hometown, what local spot would you bring us to?',
  'Beach vacation or mountain retreat?',
- 'Who would you like to have living in your walls? (IF someone had to live in your walls)'
+ 'Who would you like to have living in your walls? (IF someone had to live in your walls)',
+ 'Cat or dog person?'
 ];
 */
 
