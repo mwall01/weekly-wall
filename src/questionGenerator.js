@@ -22,7 +22,6 @@ const questions = [
   'What\'s the best dish you can cook?',
   'If you could have any animal for a pet, what would it be?',
   'Sweet or savory?',
-  'Pizza with pineapple or pizza without cheese?',
   'If you were the CEO for a day, what would you get for lunch?',
   'If you could live in any fictional world, which would it be?',
   'If you could live anywhere in the world for a year, where would it be?',
@@ -66,7 +65,8 @@ const used = [
  'If the rest of the team visited your hometown, what local spot would you bring us to?',
  'Beach vacation or mountain retreat?',
  'Who would you like to have living in your walls? (IF someone had to live in your walls)',
- 'Cat or dog person?'
+ 'Cat or dog person?',
+ 'Pizza with pineapple or pizza without cheese?'
 ];
 */
 
