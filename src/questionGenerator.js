@@ -2,13 +2,11 @@ const questions = [
   'What is the last movie you watched?',
   'What is your favourite podcast?',
   'What is your favourite kitchen appliance?',
-  'What song lyrics best represent you?',
   'Whats a Movie you can watch on repeat?',
   'Top 3 ice cream flavors?',
   'Type of music you were raised on',
   'Would you rather explore space or the ocean?',
   'What is your favorite childhood TV show or cartoon?',
-  'If you had to wear a shirt with one word on it for a year, what word would you choose?',
   'Would you rather be able to speak any language fluently or speak with animals?',
   'If you were invisible for a day, what would you do?',
   'If you got kidnapped, what would you do that would be so annoying that it would make your kidnappers return you?',
@@ -21,16 +19,11 @@ const questions = [
   'You have your own late night talk show, who do you invite as your first guest? (Past/Present)',
   'What\'s the best dish you can cook?',
   'If you could have any animal for a pet, what would it be?',
-  'Sweet or savory?',
-  'Pizza with pineapple or pizza without cheese?',
   'If you were the CEO for a day, what would you get for lunch?',
   'If you could live in any fictional world, which would it be?',
   'If you could live anywhere in the world for a year, where would it be?',
   'Favourite pastry?',
   'What sport would you perform in if you were to take part in the Olympics?',
-  'What sport could you win in the Olympics if you were to train for the next 4 years?',
-  'You are a zookeeper, what animals are you taking care of?',
-  'If you had to live in someones walls, whos walls would you live in?',
 ];
 
 /*
@@ -66,7 +59,13 @@ const used = [
  'If the rest of the team visited your hometown, what local spot would you bring us to?',
  'Beach vacation or mountain retreat?',
  'Who would you like to have living in your walls? (IF someone had to live in your walls)',
- 'Cat or dog person?'
+ 'Cat or dog person?',
+ 'Pizza with pineapple or pizza without cheese?',
+ 'You are a zookeeper, what animals are you taking care of?',
+ 'If you had to live in someones walls, whos walls would you live in?',
+ 'Sweet or savory?',
+ 'What song lyrics best represent you?',
+ 'What sport could you win in the Olympics if you were to train for the next 4 years?',
 ];
 */
 
