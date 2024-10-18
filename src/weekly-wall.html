@@ -12,6 +12,19 @@
   <div id="brick-container">
   </div>
   <h1>The Weekly Wall 🧱</h1>
+  
+  <div id="light">
+    <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+    <video id="video" width="250" controls>
+        <source src="../assets/current/enya-greeting-1.mp4" type="video/mp4">
+        <!--Browser does not support <video> tag -->
+      </video>
+  </div>
+  <div id="fade" onClick='lightbox_close();'></div>
+  <div>
+    <button href="#" onClick='lightbox_open();'>Greetings 👀 🏰 ☘️</button>
+  </div>
+
   <button id="generateButton">Generate a 🧱</button>
   <div id="questionContainer"></div>
 
