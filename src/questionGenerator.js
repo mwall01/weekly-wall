@@ -111,13 +111,13 @@ generateButton.addEventListener('click', handleButtonClick);
 
 //brick animation below//
 
-const brickContainer = document.getElementById("brick-container")
+const brickContainer = document.getElementById('brick-container');
 
-const brickContent = [ '&#129521', '&#x1F9F1', ]
+const brickContent = [ '&#129521', '&#x1F9F1', ];
 
 const random = (num) => {
   return Math.floor(Math.random() * num);
-}
+};
 
 const getRandomStyles = () => {
   const top = random(100);
@@ -130,34 +130,60 @@ left: ${left}%;
 font-size: ${size}px; 
 animation-duration: ${dur}s; 
 `;
-} 
+}; 
 
 const createBrick = (num) => {
   for (let i = num; i > 0; i--) {
-    let brick = document.createElement("div");
-    brick.className = "brick";
+    let brick = document.createElement('div');
+    brick.className = 'brick';
     brick.style.cssText = getRandomStyles();
-    brick.innerHTML = brickContent[random(2)]
+    brick.innerHTML = brickContent[random(2)];
     brickContainer.append(brick);
   }
-}
+};
 
 const removeBrick = () => {
-  brickContainer.style.opacity = "0";
+  brickContainer.style.opacity = '0';
   setTimeout(() => {
-    brickContainer.remove()
-  }, 500)
+    brickContainer.remove();
+  }, 500);
+};
+
+window.addEventListener('load', () => {
+  createBrick(30);
+  setTimeout(removeBrick, (1000 * 60));
+});
+
+window.addEventListener('click', () => {
+  removeBrick();
+});
+
+window.addEventListener('load', () => {
+  createBrick(30);
+});
+
+//Video Player Lightbox
+window.document.onkeydown = function(e) {
+  if (!e) {
+    e = event;
+    lightbox_open();
+  }
+  if (e.keyCode == 27) {
+    lightbox_close();
+  }
+};
+
+function lightbox_open() {
+  const lightBoxVideo = document.getElementById('video');
+  window.scrollTo(0, 0);
+  document.getElementById('light').style.display = 'block';
+  document.getElementById('fade').style.display = 'block';
+  lightBoxVideo.play();
 }
 
-window.addEventListener("load", () => {
-  createBrick(30)
-  setTimeout(removeBrick, (1000 * 60))
-});
-
-window.addEventListener("click", () => {
-  removeBrick()
-});
-
-window.addEventListener("load", () => {
-  createBrick(30)
-});
+function lightbox_close() {
+  const lightBoxVideo = document.getElementById('video');
+  document.getElementById('light').style.display = 'none';
+  document.getElementById('fade').style.display = 'none';
+  lightBoxVideo.pause();
+}
