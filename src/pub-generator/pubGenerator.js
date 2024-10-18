@@ -63,3 +63,56 @@ document.getElementById('submit-btn').addEventListener('click', () => {
     outputText.textContent = 'Please answer all the questions.';
   }
 });
+
+// pint animation below
+
+const pintContainer = document.getElementById("pint-container")
+
+const pintContent = [ '&#x1F3F0', '&#x1F37A',]
+
+const random = (num) => {
+  return Math.floor(Math.random() * num);
+}
+
+const getRandomStyles = () => {
+  const top = random(100);
+  const left = random(100);
+  const dur = random(10) + 10;
+  const size = random(25) + 25;
+  return ` 
+top: -${top}%; 
+left: ${left}%; 
+font-size: ${size}px; 
+animation-duration: ${dur}s; 
+`;
+} 
+
+const createpint = (num) => {
+  for (let i = num; i > 0; i--) {
+    let pint = document.createElement("div");
+    pint.className = "pint";
+    pint.style.cssText = getRandomStyles();
+    pint.innerHTML = pintContent[random(2)]
+    pintContainer.append(pint);
+  }
+}
+
+const removepint = () => {
+  pintContainer.style.opacity = "0";
+  setTimeout(() => {
+    pintContainer.remove()
+  }, 500)
+}
+
+window.addEventListener("load", () => {
+  createpint(30)
+  setTimeout(removepint, (1000 * 60))
+});
+
+window.addEventListener("click", () => {
+  removepint()
+});
+
+window.addEventListener("load", () => {
+  createpint(30)
+});

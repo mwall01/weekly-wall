@@ -9,11 +9,10 @@ const questions = [
   'What is your favorite childhood TV show or cartoon?',
   'Would you rather be able to speak any language fluently or speak with animals?',
   'If you were invisible for a day, what would you do?',
-  'If you got kidnapped, what would you do that would be so annoying that it would make your kidnappers return you?',
   'Would you rather live in a big city or the middle of nowhere for the rest of your life?',
   'If you had to wear one outfit for the rest of your life, what would it be?',
   'What is something that you cannot live without?',
-  'Would you rather time-travel ten years into the future or 100 years into the past?',
+  'How would you get rid of a body?',
   'What is your favourite cocktail?',
   'What TV show are you watching atm?',
   'You have your own late night talk show, who do you invite as your first guest? (Past/Present)',
@@ -66,6 +65,8 @@ const used = [
  'Sweet or savory?',
  'What song lyrics best represent you?',
  'What sport could you win in the Olympics if you were to train for the next 4 years?',
+ 'If you got kidnapped, what would you do that would be so annoying that it would make your kidnappers return you?',
+ 'Would you rather time-travel ten years into the future or 100 years into the past?',
 ];
 */
 
