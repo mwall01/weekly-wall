@@ -29,6 +29,8 @@ h1 {
   top: 33%;
   left: 20%;
   transform: translate(-50%, -50%);
+  /* position: relative; */
+  z-index: 1;
 }
 
 .output {
@@ -101,10 +103,14 @@ h1 {
   top: 0;
   transition: opacity 500ms;
   width: 100%;
+  pointer-events: none;
+  /* position: relative; */
+  z-index: 0;
 }
 
 .pint {
   animation: pintfall ease-in infinite, pintsway ease-in-out infinite;
   color: rgb(254, 254, 254);
   position: absolute;
+  pointer-events: none;
 }
