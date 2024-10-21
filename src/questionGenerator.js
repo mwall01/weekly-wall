@@ -161,15 +161,20 @@ window.addEventListener('load', () => {
 });
 
 //Video Player Lightbox
-window.document.onkeydown = function(e) {
-  if (!e) {
-    e = event;
-    lightbox_open();
-  }
-  if (e.keyCode == 27) {
-    lightbox_close();
-  }
-};
+const greetingsButton = document.getElementById('greetingsButton');
+greetingsButton.addEventListener('click',  () => {
+  lightbox_open();
+});
+
+const generateButton = document.getElementById('generateButton');
+generateButton.addEventListener('click',  () => {
+  handleButtonClick();
+});
+
+const closeLightboxButton = document.getElementById('boxclose');
+closeLightboxButton.addEventListener('click',  () => {
+  lightbox_close();
+});
 
 function lightbox_open() {
   const lightBoxVideo = document.getElementById('video');
