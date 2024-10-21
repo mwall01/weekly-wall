@@ -170,7 +170,6 @@ window.document.onkeydown = function(e) {
   }
 };
 
-
 function lightbox_open() {
   const lightBoxVideo = document.getElementById('video');
   window.scrollTo(0, 0);
@@ -187,4 +186,3 @@ function lightbox_close() {
   document.getElementById('generateButton').style.display = 'block';
   lightBoxVideo.pause();
 }
-
