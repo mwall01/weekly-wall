@@ -44,6 +44,11 @@ button:active {
   bottom: 20%; 
 }
 
+#generateButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 #questionContainer {
   margin: 20px auto;

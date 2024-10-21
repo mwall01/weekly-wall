@@ -105,14 +105,11 @@ function displayQuestion(question) {
   questionContainer.appendChild(questionElement);
 }
 
-const generateButton = document.getElementById('generateButton');
-
-generateButton.addEventListener('click', handleButtonClick);
+//hide the generate question button at the start
+document.getElementById('generateButton').style.display = 'none';
 
 //brick animation below//
-
 const brickContainer = document.getElementById('brick-container');
-
 const brickContent = [ '&#129521', '&#x1F9F1', ];
 
 const random = (num) => {
@@ -173,6 +170,7 @@ window.document.onkeydown = function(e) {
   }
 };
 
+
 function lightbox_open() {
   const lightBoxVideo = document.getElementById('video');
   window.scrollTo(0, 0);
@@ -185,5 +183,8 @@ function lightbox_close() {
   const lightBoxVideo = document.getElementById('video');
   document.getElementById('light').style.display = 'none';
   document.getElementById('fade').style.display = 'none';
+  document.getElementById('greetingsButton').style.display='none';
+  document.getElementById('generateButton').style.display = 'block';
   lightBoxVideo.pause();
 }
+
