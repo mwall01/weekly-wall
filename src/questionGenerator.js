@@ -128,7 +128,7 @@ left: ${left}%;
 font-size: ${size}px; 
 animation-duration: ${dur}s; 
 `;
-}; 
+};
 
 const createBrick = (num) => {
   for (let i = num; i > 0; i--) {
