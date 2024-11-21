@@ -12,7 +12,21 @@
   <div id="brick-container">
   </div>
   <h1>The Weekly Wall 🧱</h1>
-  <button id="generateButton">Generate a 🧱</button>
+
+  <div id="light">
+    <a class="boxclose" id="boxclose"></a>
+    <video id="video" width="250" controls>
+        <source src="../assets/current/enya-greeting-1.mp4" type="video/mp4">
+        <!--Browser does not support <video> tag -->
+      </video>
+  </div>
+  <div id="fade"></div>
+  <div>
+    <button href="#" id="greetingsButton">Greetings 👀 🏰 ☘️</button>
+  </div>
+  <div id="generateButtonContainer">
+      <button id="generateButton">Generate a 🧱</button>
+  </div>
   <div id="questionContainer"></div>
 
   <script src="questionGenerator.js"></script>
@@ -22,6 +36,8 @@
     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3zHv6xadTJkUscWUzbmsvO?utm_source=generator" width="20%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3Mpj3btcKHXTVlCG3wlu4C?utm_source=generator" width="20%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   </div>
+
+  <a href="pub-generator/pub-path.html" id="sailAwayIcon">⛫</a>
 
 </body>
 </html>

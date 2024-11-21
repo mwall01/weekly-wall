@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pub Selector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="pint-container"></div>
+      <h1>Welcome weary traveller</h1>
+
+    <div class="button-group">
+      <label>Vibes:</label>
+      <input type="radio" id="cosy-yes" name="cosy" value="cosy">
+      <label for="cosy-yes">Cosy</label>
+      <input type="radio" id="cosy-no" name="cosy" value="buzzy">
+      <label for="cosy-no">Buzzy</label>
+    </div>
+
+    <div class="button-group">
+      <label>Food:</label>
+      <input type="radio" id="food-yes" name="food" value="yes">
+      <label for="food-yes">Yes</label>
+      <input type="radio" id="food-no" name="food" value="no">
+      <label for="food-no">No</label>
+    </div>
+
+    <div class="button-group">
+      <label>Outdoors:</label>
+      <input type="radio" id="outdoors-yes" name="outdoors" value="yes">
+      <label for="outdoors-yes">Yes</label>
+      <input type="radio" id="outdoors-no" name="outdoors" value="no">
+      <label for="outdoors-no">No</label>
+    </div>
+
+    <div class="button-group">
+      <label>Fireplace:</label>
+      <input type="radio" id="fireplace-yes" name="fireplace" value="yes">
+      <label for="fireplace-yes">Yes</label>
+      <input type="radio" id="fireplace-no" name="fireplace" value="no">
+      <label for="fireplace-no">No</label>
+    </div>
+
+    <div class="button-group">
+      <label>Guinness:</label>
+      <input type="radio" id="guinness-top" name="guinness" value="Top Crême">
+      <label for="guinness-top">Top Crême</label>
+      <input type="radio" id="guinness-good" name="guinness" value="Good Crême">
+      <label for="guinness-good">Good Crême</label>
+    </div>
+
+    <button id="submit-btn">Find Pub</button>
+
+    <div class="output">
+      <h2>Output:</h2>
+      <p id="output-text"></p>
+    </div>
+  </div>
+
+  <script src="pubGenerator.js"></script>
+</body>
+</html>

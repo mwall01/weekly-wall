@@ -2,34 +2,27 @@ const questions = [
   'What is the last movie you watched?',
   'What is your favourite podcast?',
   'What is your favourite kitchen appliance?',
-  'What song lyrics best represent you?',
   'Whats a Movie you can watch on repeat?',
   'Top 3 ice cream flavors?',
   'Type of music you were raised on',
   'Would you rather explore space or the ocean?',
   'What is your favorite childhood TV show or cartoon?',
-  'If you had to wear a shirt with one word on it for a year, what word would you choose?',
   'Would you rather be able to speak any language fluently or speak with animals?',
   'If you were invisible for a day, what would you do?',
-  'If you got kidnapped, what would you do that would be so annoying that it would make your kidnappers return you?',
   'Would you rather live in a big city or the middle of nowhere for the rest of your life?',
   'If you had to wear one outfit for the rest of your life, what would it be?',
   'What is something that you cannot live without?',
-  'Would you rather time-travel ten years into the future or 100 years into the past?',
+  'How would you get rid of a body?',
   'What is your favourite cocktail?',
   'What TV show are you watching atm?',
   'You have your own late night talk show, who do you invite as your first guest? (Past/Present)',
   'What\'s the best dish you can cook?',
   'If you could have any animal for a pet, what would it be?',
-  'Sweet or savory?',
   'If you were the CEO for a day, what would you get for lunch?',
   'If you could live in any fictional world, which would it be?',
   'If you could live anywhere in the world for a year, where would it be?',
   'Favourite pastry?',
   'What sport would you perform in if you were to take part in the Olympics?',
-  'What sport could you win in the Olympics if you were to train for the next 4 years?',
-  'You are a zookeeper, what animals are you taking care of?',
-  'If you had to live in someones walls, whos walls would you live in?',
 ];
 
 /*
@@ -66,7 +59,14 @@ const used = [
  'Beach vacation or mountain retreat?',
  'Who would you like to have living in your walls? (IF someone had to live in your walls)',
  'Cat or dog person?',
- 'Pizza with pineapple or pizza without cheese?'
+ 'Pizza with pineapple or pizza without cheese?',
+ 'You are a zookeeper, what animals are you taking care of?',
+ 'If you had to live in someones walls, whos walls would you live in?',
+ 'Sweet or savory?',
+ 'What song lyrics best represent you?',
+ 'What sport could you win in the Olympics if you were to train for the next 4 years?',
+ 'If you got kidnapped, what would you do that would be so annoying that it would make your kidnappers return you?',
+ 'Would you rather time-travel ten years into the future or 100 years into the past?',
 ];
 */
 
@@ -106,19 +106,16 @@ function displayQuestion(question) {
   questionContainer.appendChild(questionElement);
 }
 
-const generateButton = document.getElementById('generateButton');
-
-generateButton.addEventListener('click', handleButtonClick);
+//hide the generate question button at the start
+document.getElementById('generateButton').style.display = 'none';
 
 //brick animation below//
-
-const brickContainer = document.getElementById("brick-container")
-
-const brickContent = [ '&#129521', '&#x1F9F1', ]
+const brickContainer = document.getElementById('brick-container');
+const brickContent = [ '&#129521', '&#x1F9F1', ];
 
 const random = (num) => {
   return Math.floor(Math.random() * num);
-}
+};
 
 const getRandomStyles = () => {
   const top = random(100);
@@ -131,34 +128,67 @@ left: ${left}%;
 font-size: ${size}px; 
 animation-duration: ${dur}s; 
 `;
-} 
+};
 
 const createBrick = (num) => {
   for (let i = num; i > 0; i--) {
-    let brick = document.createElement("div");
-    brick.className = "brick";
+    let brick = document.createElement('div');
+    brick.className = 'brick';
     brick.style.cssText = getRandomStyles();
-    brick.innerHTML = brickContent[random(2)]
+    brick.innerHTML = brickContent[random(2)];
     brickContainer.append(brick);
   }
-}
+};
 
 const removeBrick = () => {
-  brickContainer.style.opacity = "0";
+  brickContainer.style.opacity = '0';
   setTimeout(() => {
-    brickContainer.remove()
-  }, 500)
+    brickContainer.remove();
+  }, 500);
+};
+
+window.addEventListener('load', () => {
+  createBrick(30);
+  setTimeout(removeBrick, (1000 * 60));
+});
+
+window.addEventListener('click', () => {
+  removeBrick();
+});
+
+window.addEventListener('load', () => {
+  createBrick(30);
+});
+
+//Video Player Lightbox
+const greetingsButton = document.getElementById('greetingsButton');
+greetingsButton.addEventListener('click',  () => {
+  lightbox_open();
+});
+
+const generateButton = document.getElementById('generateButton');
+generateButton.addEventListener('click',  () => {
+  handleButtonClick();
+});
+
+const closeLightboxButton = document.getElementById('boxclose');
+closeLightboxButton.addEventListener('click',  () => {
+  lightbox_close();
+});
+
+function lightbox_open() {
+  const lightBoxVideo = document.getElementById('video');
+  window.scrollTo(0, 0);
+  document.getElementById('light').style.display = 'block';
+  document.getElementById('fade').style.display = 'block';
+  lightBoxVideo.play();
 }
 
-window.addEventListener("load", () => {
-  createBrick(30)
-  setTimeout(removeBrick, (1000 * 60))
-});
-
-window.addEventListener("click", () => {
-  removeBrick()
-});
-
-window.addEventListener("load", () => {
-  createBrick(30)
-});
+function lightbox_close() {
+  const lightBoxVideo = document.getElementById('video');
+  document.getElementById('light').style.display = 'none';
+  document.getElementById('fade').style.display = 'none';
+  document.getElementById('greetingsButton').style.display='none';
+  document.getElementById('generateButton').style.display = 'block';
+  lightBoxVideo.pause();
+}
