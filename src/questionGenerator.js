@@ -10,19 +10,14 @@ const questions = [
   'Would you rather be able to speak any language fluently or speak with animals?',
   'If you were invisible for a day, what would you do?',
   'Would you rather live in a big city or the middle of nowhere for the rest of your life?',
-  'If you had to wear one outfit for the rest of your life, what would it be?',
   'What is something that you cannot live without?',
-  'How would you get rid of a body?',
   'What is your favourite cocktail?',
-  'What TV show are you watching atm?',
-  'You have your own late night talk show, who do you invite as your first guest? (Past/Present)',
   'What\'s the best dish you can cook?',
   'If you could have any animal for a pet, what would it be?',
   'If you were the CEO for a day, what would you get for lunch?',
-  'If you could live in any fictional world, which would it be?',
   'If you could live anywhere in the world for a year, where would it be?',
   'Favourite pastry?',
-  'What sport would you perform in if you were to take part in the Olympics?',
+  'What sport would you perform in if you were to take part in the Olympics?'
 ];
 
 /*
@@ -67,6 +62,11 @@ const used = [
  'What sport could you win in the Olympics if you were to train for the next 4 years?',
  'If you got kidnapped, what would you do that would be so annoying that it would make your kidnappers return you?',
  'Would you rather time-travel ten years into the future or 100 years into the past?',
+ 'If you could live in any fictional world, which would it be?',
+ 'You have your own late night talk show, who do you invite as your first guest? (Past/Present)',
+ 'If you had to wear one outfit for the rest of your life, what would it be?',
+ 'What TV show are you watching atm?',
+ 'How would you get rid of a body?'
 ];
 */
 
