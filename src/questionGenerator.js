@@ -19,66 +19,126 @@ const questions = [
   'Favourite pastry?',
   'What sport would you perform in if you were to take part in the Olympics?'
 ];
-
-/*
-const used = [
- 'If your life was a movie, what would it be called?', 🤢🤢🤢🤢
- 'You can only have one, would you rather have a cook or a maid?',
- 'Would you rather live in a place where it is always hot or always cold?',
- 'Irish Lottery - would you rather win 3 million or the 20k a month prize for 30 years?',
- 'What is your favourite month?',
- 'Window seat or aisle seat?',
- 'Which movie do you think has the best soundtrack?',
- 'What is your go-to breakfast? Is it sweet or savory?',
- 'Where would you like to go on your next trip?',
- 'What is your most-used emoji?',
- 'What is your go-to meal when you have to cook something quick?',
- 'If you could only have one sandwich for the rest of your life, what would it be?',
- 'What is something interesting about where you grew up?',
- 'Guilty TV or Movie pleasure, share with the class?',
- 'What is something interesting about where you grew up?',
- 'What is your favorite cereal?',
- 'Which Muppet represents you the best?',
- 'Would you rather give up Coffee or Pizza?,
- 'Its the 90s, which Spice Girl are you taking a bullet for?',
- 'What is your favorite ice cream flavor? Do you prefer a cone or a cup?',
- 'Do you think there is any way that we are actually living in the Matrix?',
- 'Would you rather live in the same place for the rest of your life, or have to move to a new country once a month for the next five years?'
- 'Communicate only through interpretive dance or have your life narrated by Morgan Freeman?',
- 'If you could eliminate one food so no one could eat it ever again, what would it be?',
- 'Death Row last meal - any meal, any restaurant in the world',
- 'Would you rather be an expert at only one thing or average at a lot of things?',
- 'How much of your life would you guess you spend on your phone?',
- 'Would you rather be able to run at 100 miles per hour or fly at 1 mile per hour?',
- 'If the rest of the team visited your hometown, what local spot would you bring us to?',
- 'Beach vacation or mountain retreat?',
- 'Who would you like to have living in your walls? (IF someone had to live in your walls)',
- 'Cat or dog person?',
- 'Pizza with pineapple or pizza without cheese?',
- 'You are a zookeeper, what animals are you taking care of?',
- 'If you had to live in someones walls, whos walls would you live in?',
- 'Sweet or savory?',
- 'What song lyrics best represent you?',
- 'What sport could you win in the Olympics if you were to train for the next 4 years?',
- 'If you got kidnapped, what would you do that would be so annoying that it would make your kidnappers return you?',
- 'Would you rather time-travel ten years into the future or 100 years into the past?',
- 'If you could live in any fictional world, which would it be?',
- 'You have your own late night talk show, who do you invite as your first guest? (Past/Present)',
- 'If you had to wear one outfit for the rest of your life, what would it be?',
- 'What TV show are you watching atm?',
- 'How would you get rid of a body?'
+const paddyQuestions = [
+  'Guinness, Murphy\'s or Beamish?',
+  'What is your favourite pub?',
+  'What is your favourite Irish dish?',
+  'What is your favourite Irish song?',
+  'What is your favourite Irish movie?',
 ];
-*/
+const easterQuestions = [
+  'What is your favourite Easter Egg?',
+  'What is your favourite chocolate bar?',
+  'Favourite way to eat eggs? (Scrambled, poached, fried, boiled, etc.)',
+  'What is your favourite pancake topping?',
+];
+const summerQuestions = [
+  'What is your favourite summer drink?',
+  'What is your favourite summer food?',
+  'What is your favourite summer activity?',
+  'What is your favourite summer song?',
+  'What is your favourite hot country to travel to?',
+];
+const halloweenQuestions = [
+  'What is your favourite Halloween movie?',
+  'What is the best costume you have ever seen?',
+  'Would you spend a night alone in the Hellfire club for 50k?',
+  'If this team had to do a team costume, what would it be?',
+];
+const xmasQuestions = [
+  'What is your favourite Christmas movie?',
+  'What is your favourite Christmas song?',
+  'What is your favourite Christmas food?',
+  'What is your favourite Christmas drink?',
+];
 
-function getRandomQuestion () {
-  const randomIndex = Math.floor(Math.random() * questions.length);
-  return questions[randomIndex];
+// function getRandomQuestion () {
+//   const randomIndex = Math.floor(Math.random() * questions.length);
+//   return questions[randomIndex];
+// }
+
+// function getPaddyQuestion () {
+//   const randomIndex = Math.floor(Math.random() * paddyQuestions.length);
+//   return paddyQuestions[randomIndex];
+// }
+
+// function getEasterQuestion () {
+//   const randomIndex = Math.floor(Math.random() * easterQuestions.length);
+//   return easterQuestions[randomIndex];
+// }
+
+// function getSummerQuestion () {
+//   const randomIndex = Math.floor(Math.random() * summerQuestions.length);
+//   return summerQuestions[randomIndex];
+// }
+
+// function getHalloweenQuestion () {
+//   const randomIndex = Math.floor(Math.random() * halloweenQuestions.length);
+//   return halloweenQuestions[randomIndex];
+// }
+
+// function getXmasQuestion () {
+//   const randomIndex = Math.floor(Math.random() * xmasQuestions.length);
+//   return xmasQuestions[randomIndex];
+// }
+
+function getRandomQuestionFromArray(questionArray) {
+  const randomIndex = Math.floor(Math.random() * questionArray.length);
+  return questionArray[randomIndex];
 }
 
-function handleButtonClick() {
+// function handleButtonClick() {
+//   displayLoading();
+//   setTimeout(() => {
+//     const randomQuestion = getRandomQuestion();
+//     displayQuestion(randomQuestion);
+//   }, 3000);
+// }
+
+// function handlePaddyButtonClick() {
+//   displayLoading();
+//   setTimeout(() => {
+//     const paddyQuestion = getPaddyQuestion();
+//     displayQuestion(paddyQuestion);
+//   }, 3000);
+// }
+
+// function handleEasterButtonClick() {
+//   displayLoading();
+//   setTimeout(() => {
+//     const easterQuestion = getEasterQuestion();
+//     displayQuestion(easterQuestion);
+//   }, 3000);
+// }
+
+// function handleSummerButtonClick() {
+//   displayLoading();
+//   setTimeout(() => {
+//     const summerQuestion = getSummerQuestion();
+//     displayQuestion(summerQuestion);
+//   }, 3000);
+// }
+
+// function handleHalloweenButtonClick() {
+//   displayLoading();
+//   setTimeout(() => {
+//     const halloweenQuestion = getHalloweenQuestion();
+//     displayQuestion(halloweenQuestion);
+//   }, 3000);
+// }
+
+// function handleXmasButtonClick() {
+//   displayLoading();
+//   setTimeout(() => {
+//     const xmasQuestion = getXmasQuestion();
+//     displayQuestion(xmasQuestion);
+//   }, 3000);
+// }
+
+function handleButtonClick(questionArray) {
   displayLoading();
   setTimeout(() => {
-    const randomQuestion = getRandomQuestion();
+    const randomQuestion = getRandomQuestionFromArray(questionArray);
     displayQuestion(randomQuestion);
   }, 3000);
 }
@@ -108,6 +168,11 @@ function displayQuestion(question) {
 
 //hide the generate question button at the start
 document.getElementById('generateButton').style.display = 'none';
+document.getElementById('generatePaddyButton').style.display = 'none';
+document.getElementById('generateEasterButton').style.display = 'none';
+document.getElementById('generateSummerButton').style.display = 'none';
+document.getElementById('generateHalloweenButton').style.display = 'none';
+document.getElementById('generateXmasButton').style.display = 'none';
 
 //brick animation below//
 const brickContainer = document.getElementById('brick-container');
@@ -160,6 +225,21 @@ window.addEventListener('load', () => {
   createBrick(30);
 });
 
+const buttonMappings = [
+  { buttonId: 'generateButton', questionArray: questions },
+  { buttonId: 'generatePaddyButton', questionArray: paddyQuestions },
+  { buttonId: 'generateEasterButton', questionArray: easterQuestions },
+  { buttonId: 'generateSummerButton', questionArray: summerQuestions },
+  { buttonId: 'generateHalloweenButton', questionArray: halloweenQuestions },
+  { buttonId: 'generateXmasButton', questionArray: xmasQuestions },
+];
+
+buttonMappings.forEach(({ buttonId, questionArray }) => {
+  const button = document.getElementById(buttonId);
+  button.addEventListener('click', () => handleButtonClick(questionArray));
+});
+
+
 //Video Player Lightbox
 const greetingsButton = document.getElementById('greetingsButton');
 greetingsButton.addEventListener('click',  () => {
@@ -169,6 +249,31 @@ greetingsButton.addEventListener('click',  () => {
 const generateButton = document.getElementById('generateButton');
 generateButton.addEventListener('click',  () => {
   handleButtonClick();
+});
+
+const generatePaddyButton = document.getElementById('generatePaddyButton');
+generatePaddyButton.addEventListener('click',  () => {
+  handlePaddyButtonClick();
+});
+
+const generateEasterButton = document.getElementById('generateEasterButton');
+generateEasterButton.addEventListener('click',  () => {
+  handleEasterButtonClick();
+});
+
+const generateSummerButton = document.getElementById('generateSummerButton');
+generateSummerButton.addEventListener('click',  () => {
+  handleSummerButtonClick();
+});
+
+const generateHalloweenButton = document.getElementById('generateHalloweenButton');
+generateHalloweenButton.addEventListener('click',  () => {
+  handleHalloweenButtonClick();
+});
+
+const generateXmasButton = document.getElementById('generateXmasButton');
+generateXmasButton.addEventListener('click',  () => {
+  handleXmasButtonClick();
 });
 
 const closeLightboxButton = document.getElementById('boxclose');
@@ -190,5 +295,10 @@ function lightbox_close() {
   document.getElementById('fade').style.display = 'none';
   document.getElementById('greetingsButton').style.display='none';
   document.getElementById('generateButton').style.display = 'block';
+  document.getElementById('generatePaddyButton').style.display = 'block';
+  document.getElementById('generateEasterButton').style.display = 'block';
+  document.getElementById('generateSummerButton').style.display = 'block';
+  document.getElementById('generateHalloweenButton').style.display = 'block';
+  document.getElementById('generateXmasButton').style.display = 'block';
   lightBoxVideo.pause();
 }
