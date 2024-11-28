@@ -52,88 +52,12 @@ const xmasQuestions = [
   'What is your favourite Christmas drink?',
 ];
 
-// function getRandomQuestion () {
-//   const randomIndex = Math.floor(Math.random() * questions.length);
-//   return questions[randomIndex];
-// }
-
-// function getPaddyQuestion () {
-//   const randomIndex = Math.floor(Math.random() * paddyQuestions.length);
-//   return paddyQuestions[randomIndex];
-// }
-
-// function getEasterQuestion () {
-//   const randomIndex = Math.floor(Math.random() * easterQuestions.length);
-//   return easterQuestions[randomIndex];
-// }
-
-// function getSummerQuestion () {
-//   const randomIndex = Math.floor(Math.random() * summerQuestions.length);
-//   return summerQuestions[randomIndex];
-// }
-
-// function getHalloweenQuestion () {
-//   const randomIndex = Math.floor(Math.random() * halloweenQuestions.length);
-//   return halloweenQuestions[randomIndex];
-// }
-
-// function getXmasQuestion () {
-//   const randomIndex = Math.floor(Math.random() * xmasQuestions.length);
-//   return xmasQuestions[randomIndex];
-// }
+// Functionality
 
 function getRandomQuestionFromArray(questionArray) {
   const randomIndex = Math.floor(Math.random() * questionArray.length);
   return questionArray[randomIndex];
 }
-
-// function handleButtonClick() {
-//   displayLoading();
-//   setTimeout(() => {
-//     const randomQuestion = getRandomQuestion();
-//     displayQuestion(randomQuestion);
-//   }, 3000);
-// }
-
-// function handlePaddyButtonClick() {
-//   displayLoading();
-//   setTimeout(() => {
-//     const paddyQuestion = getPaddyQuestion();
-//     displayQuestion(paddyQuestion);
-//   }, 3000);
-// }
-
-// function handleEasterButtonClick() {
-//   displayLoading();
-//   setTimeout(() => {
-//     const easterQuestion = getEasterQuestion();
-//     displayQuestion(easterQuestion);
-//   }, 3000);
-// }
-
-// function handleSummerButtonClick() {
-//   displayLoading();
-//   setTimeout(() => {
-//     const summerQuestion = getSummerQuestion();
-//     displayQuestion(summerQuestion);
-//   }, 3000);
-// }
-
-// function handleHalloweenButtonClick() {
-//   displayLoading();
-//   setTimeout(() => {
-//     const halloweenQuestion = getHalloweenQuestion();
-//     displayQuestion(halloweenQuestion);
-//   }, 3000);
-// }
-
-// function handleXmasButtonClick() {
-//   displayLoading();
-//   setTimeout(() => {
-//     const xmasQuestion = getXmasQuestion();
-//     displayQuestion(xmasQuestion);
-//   }, 3000);
-// }
 
 function handleButtonClick(questionArray) {
   displayLoading();
