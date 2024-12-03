@@ -17,7 +17,14 @@ const questions = [
   'If you were the CEO for a day, what would you get for lunch?',
   'If you could live anywhere in the world for a year, where would it be?',
   'Favourite pastry?',
-  'What sport would you perform in if you were to take part in the Olympics?'
+  'What sport would you perform in if you were to take part in the Olympics?',
+  'Do you believe in the power of a curse?',
+  'Do you have a pet?',
+  'Can you remember the tallest man you have ever seen?',
+  'How much money would it take to get you to spend a night in a cemetary',
+  'Do you have a sweet tooth?',
+  'Have you had your hearing tested lately?',
+  'Planning any trips soon?'
 ];
 const paddyQuestions = [
   'Guinness, Murphy\'s or Beamish?',
