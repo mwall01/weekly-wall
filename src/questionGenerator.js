@@ -50,6 +50,10 @@ const xmasQuestions = [
   'What is your favourite Christmas song?',
   'What is your favourite Christmas food?',
   'What is your favourite Christmas drink?',
+  'What was your favourite toy you got as a child?',
+  'Favourite Christmas tradition?',
+  'Have you ever regifted a present, and if so, what was it?',
+  'What is your favourite part of Christmas dinner?'
 ];
 
 // Functionality
