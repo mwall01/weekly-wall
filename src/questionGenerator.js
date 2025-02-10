@@ -24,7 +24,11 @@ const questions = [
   'How much money would it take to get you to spend a night in a cemetary',
   'Do you have a sweet tooth?',
   'Have you had your hearing tested lately?',
-  'Planning any trips soon?'
+  'Planning any trips soon?',
+  'What artist/album brings you back to your childhood. E.g. Album or artist your parents played on every road trip',
+  'You are hosting the team for a dinner party. What dish do you make that knocks it out of the park every time?',
+  'What would be your movie montage song?',
+  'What is the first CD/Tape/Record you ever purchased?'
 ];
 const paddyQuestions = [
   'Guinness, Murphy\'s or Beamish?',
