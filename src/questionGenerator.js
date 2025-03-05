@@ -1,10 +1,6 @@
 const questions = [
-  'What is the last movie you watched?',
-  'What is your favourite podcast?',
-  'What is your favourite kitchen appliance?',
   'Whats a Movie you can watch on repeat?',
   'Top 3 ice cream flavors?',
-  'Type of music you were raised on',
   'Would you rather explore space or the ocean?',
   'What is your favorite childhood TV show or cartoon?',
   'Would you rather be able to speak any language fluently or speak with animals?',
@@ -23,11 +19,8 @@ const questions = [
   'Can you remember the tallest man you have ever seen?',
   'How much money would it take to get you to spend a night in a cemetary',
   'Do you have a sweet tooth?',
-  'Have you had your hearing tested lately?',
   'Planning any trips soon?',
-  'What artist/album brings you back to your childhood. E.g. Album or artist your parents played on every road trip',
   'You are hosting the team for a dinner party. What dish do you make that knocks it out of the park every time?',
-  'What would be your movie montage song?',
   'What is the first CD/Tape/Record you ever purchased?'
 ];
 const paddyQuestions = [
@@ -36,6 +29,8 @@ const paddyQuestions = [
   'What is your favourite Irish dish?',
   'What is your favourite Irish song?',
   'What is your favourite Irish movie?',
+  'Who is your favourite Irish actor/actress?',
+  'Favourite place you have visited in Ireland?',
 ];
 const easterQuestions = [
   'What is your favourite Easter Egg?',
