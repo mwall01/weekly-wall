@@ -181,46 +181,42 @@ body {margin:2rem;}
 #fade {
   display: none;
   position: fixed;
-  top: 0%;
-  left: 0%;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 1001;
-  -moz-opacity: 0.8;
-  opacity: .80;
-  filter: alpha(opacity=80);
 }
 
 #light {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 50%;
-  left: 60%;
-  max-width: 600px;
-  max-height: 360px;
-  margin-left: -300px;
-  margin-top: -180px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
   background: #FFF;
   z-index: 1002;
-  overflow: visible;
+  overflow: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
 }
 
-#boxclose {
-  float: right;
-  cursor: pointer;
-  color: #fff;
-  border-radius: 3px;
-  background: #222222;
-  font-size: 31px;
-  font-weight: bold;
-  display: inline-block;
-  line-height: 0px;
+.boxclose {
   position: absolute;
-  right: -35px;
-  top: 2px;
-  z-index: 1002;
-  opacity: 0.9;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  background: #222;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1003;
 }
 
 .boxclose:before {
@@ -229,4 +225,10 @@ body {margin:2rem;}
 
 #fade:hover ~ #boxclose {
   display:none;
+}
+
+#video {
+  width: 100%;
+  height: auto;
+  display: block;
 }
