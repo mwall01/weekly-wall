@@ -39,11 +39,14 @@ const easterQuestions = [
   'What is your favourite pancake topping?',
 ];
 const summerQuestions = [
-  'What is your favourite summer drink?',
-  'What is your favourite summer food?',
-  'What is your favourite summer activity?',
-  'What is your favourite summer song?',
+  //'What is your favourite summer drink?',
+  //'What is your favourite summer food?',
+  //'What is your favourite summer activity?',
+  //'What is your favourite summer song?',
   'What is your favourite hot country to travel to?',
+  'What was a favourite Summer holiday you had as a kid?',
+  'Are you a beach person or a pool person?',
+  'What temperature is TOO hot?',
 ];
 const halloweenQuestions = [
   'What is your favourite Halloween movie?',
