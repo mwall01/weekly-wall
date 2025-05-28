@@ -48,6 +48,7 @@ const summerQuestions = [
   'Are you a beach person or a pool person?',
   'What temperature is TOO hot?',
   'Do you prefer the brighter mornings or the longer evenings?',
+  'Favourite Summer gig?',
 ];
 const halloweenQuestions = [
   'What is your favourite Halloween movie?',
