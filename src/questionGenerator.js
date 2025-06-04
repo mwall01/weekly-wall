@@ -21,9 +21,7 @@ const questions = [
   'Do you have a sweet tooth?',
   'Planning any trips soon?',
   'You are hosting the team for a dinner party. What dish do you make that knocks it out of the park every time?',
-  'What is the first CD/Tape/Record you ever purchased?'
-];
-const paddyQuestions = [
+  'What is the first CD/Tape/Record you ever purchased?',
   'Guinness, Murphy\'s or Beamish?',
   'What is your favourite pub?',
   'What is your favourite Irish dish?',
@@ -31,23 +29,15 @@ const paddyQuestions = [
   'What is your favourite Irish movie?',
   'Who is your favourite Irish actor/actress?',
   'Favourite place you have visited in Ireland?',
-];
-const easterQuestions = [
   'What is your favourite Easter Egg?',
   'What is your favourite chocolate bar?',
   'Favourite way to eat eggs? (Scrambled, poached, fried, boiled, etc.)',
   'What is your favourite pancake topping?',
-];
-const summerQuestions = [
   'What is your favourite park?',
-];
-const halloweenQuestions = [
   'What is your favourite Halloween movie?',
   'What is the best costume you have ever seen?',
   'Would you spend a night alone in the Hellfire club for 50k?',
   'If this team had to do a team costume, what would it be?',
-];
-const xmasQuestions = [
   'What is your favourite Christmas movie?',
   'What is your favourite Christmas song?',
   'What is your favourite Christmas food?',
@@ -100,11 +90,6 @@ function displayQuestion(question) {
 
 //hide the generate question button at the start
 document.getElementById('generateButton').style.display = 'none';
-document.getElementById('generatePaddyButton').style.display = 'none';
-document.getElementById('generateEasterButton').style.display = 'none';
-document.getElementById('generateSummerButton').style.display = 'none';
-document.getElementById('generateHalloweenButton').style.display = 'none';
-document.getElementById('generateXmasButton').style.display = 'none';
 
 //brick animation below//
 const brickContainer = document.getElementById('brick-container');
@@ -158,12 +143,7 @@ window.addEventListener('load', () => {
 });
 
 const buttonMappings = [
-  { buttonId: 'generateButton', questionArray: questions },
-  { buttonId: 'generatePaddyButton', questionArray: paddyQuestions },
-  { buttonId: 'generateEasterButton', questionArray: easterQuestions },
-  { buttonId: 'generateSummerButton', questionArray: summerQuestions },
-  { buttonId: 'generateHalloweenButton', questionArray: halloweenQuestions },
-  { buttonId: 'generateXmasButton', questionArray: xmasQuestions },
+  { buttonId: 'generateButton', questionArray: questions }
 ];
 
 buttonMappings.forEach(({ buttonId, questionArray }) => {
@@ -181,31 +161,6 @@ greetingsButton.addEventListener('click',  () => {
 const generateButton = document.getElementById('generateButton');
 generateButton.addEventListener('click',  () => {
   handleButtonClick();
-});
-
-const generatePaddyButton = document.getElementById('generatePaddyButton');
-generatePaddyButton.addEventListener('click',  () => {
-  handlePaddyButtonClick();
-});
-
-const generateEasterButton = document.getElementById('generateEasterButton');
-generateEasterButton.addEventListener('click',  () => {
-  handleEasterButtonClick();
-});
-
-const generateSummerButton = document.getElementById('generateSummerButton');
-generateSummerButton.addEventListener('click',  () => {
-  handleSummerButtonClick();
-});
-
-const generateHalloweenButton = document.getElementById('generateHalloweenButton');
-generateHalloweenButton.addEventListener('click',  () => {
-  handleHalloweenButtonClick();
-});
-
-const generateXmasButton = document.getElementById('generateXmasButton');
-generateXmasButton.addEventListener('click',  () => {
-  handleXmasButtonClick();
 });
 
 const closeLightboxButton = document.getElementById('boxclose');
@@ -227,10 +182,5 @@ function lightbox_close() {
   document.getElementById('fade').style.display = 'none';
   document.getElementById('greetingsButton').style.display='none';
   document.getElementById('generateButton').style.display = 'block';
-  document.getElementById('generatePaddyButton').style.display = 'block';
-  document.getElementById('generateEasterButton').style.display = 'block';
-  document.getElementById('generateSummerButton').style.display = 'block';
-  document.getElementById('generateHalloweenButton').style.display = 'block';
-  document.getElementById('generateXmasButton').style.display = 'block';
   lightBoxVideo.pause();
 }
