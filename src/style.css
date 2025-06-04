@@ -1,7 +1,7 @@
 body {
   font-family: 'Lato', sans-serif;
   font-size: 54px;
-  background-image: url('../assets/current/enya-jan.jpg');
+  background-image: url('../assets/current/enya-blue-light.png');
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -36,11 +36,12 @@ button:hover {
 }
 
 button:active {
-  transform: scale(0.95); /* Add a slight scale when button is clicked */
+  transform: scale(0.95);
 }
 
 .spotify-embed {
   position: relative;
+  opacity: 0.5;
   bottom: 20%; 
 }
 
