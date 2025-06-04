@@ -39,7 +39,6 @@ const easterQuestions = [
   'What is your favourite pancake topping?',
 ];
 const summerQuestions = [
-  'Do you prefer the brighter mornings or the longer evenings?',
   'What is your favourite park?',
 ];
 const halloweenQuestions = [
