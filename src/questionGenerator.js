@@ -1,5 +1,4 @@
 const questions = [
-  'Do you have a pet?',
   'You are hosting the team for a dinner party. What dish do you make that knocks it out of the park every time?',
   'Guinness, Murphy\'s or Beamish?',
   'What is your favourite pub?',
