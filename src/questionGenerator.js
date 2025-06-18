@@ -5,7 +5,9 @@ const questions = [
     'Favourite place you have visited in Ireland?',
     'What is your favourite park?',
     'If you could instantly become an expert in something (language, skill etc), what would it be?',
-    'What is a food you could eat every day and not get sick of?'
+    'What is a food you could eat every day and not get sick of?',
+    'What is a sound you love to hear, versus what is a sound you hate?',
+    'What other job in Squarespace outside of QA would you like to try out?'
 ];
 
 // Functionality
