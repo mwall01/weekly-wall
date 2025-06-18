@@ -1,9 +1,11 @@
 const questions = [
-  'You are hosting the team for a dinner party. What dish do you make that knocks it out of the park every time?',
-  'Guinness, Murphy\'s or Beamish?',
-  'What is your favourite pub?',
-  'Favourite place you have visited in Ireland?',
-  'What is your favourite park?',
+    'You are hosting the team for a dinner party. What dish do you make that knocks it out of the park every time?',
+    'Guinness, Murphy\'s or Beamish?',
+    'What is your favourite pub?',
+    'Favourite place you have visited in Ireland?',
+    'What is your favourite park?',
+    'If you could instantly become an expert in something (language, skill etc), what would it be?'
+
 ];
 
 // Functionality
