@@ -4,8 +4,8 @@ const questions = [
     'What is your favourite pub?',
     'Favourite place you have visited in Ireland?',
     'What is your favourite park?',
-    'If you could instantly become an expert in something (language, skill etc), what would it be?'
-
+    'If you could instantly become an expert in something (language, skill etc), what would it be?',
+    'What is a food you could eat every day and not get sick of?'
 ];
 
 // Functionality
