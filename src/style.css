@@ -230,4 +230,5 @@ body {margin:2rem;}
   width: 100%;
   height: auto;
   display: block;
+  max-height: 100vh; /* Ensures the video does not exceed the viewport height */
 }
