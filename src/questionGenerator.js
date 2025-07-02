@@ -7,7 +7,9 @@ const questions = [
     'What 80s-90s classic song would be your Montage song?',
     'What is a food you could eat every day and not get sick of?',
     'What is a movie you hated that everyone else loved?',
-    'What other job in Squarespace outside of QA would you like to try out?'
+    'What other job in Squarespace outside of QA would you like to try out?',
+    'Who would play you in a movie?',
+    'Best pub crisps?'
 ];
 
 // Functionality
