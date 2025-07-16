@@ -6,8 +6,6 @@ const questions = [
     'What is your favourite park?',
     'What 80s-90s classic song would be your Montage song?',
     'What other job in Squarespace outside of QA would you like to try out?',
-    'Best pub crisps?',
-    'Bacon or Scampi Fries?'
 ];
 
 // Functionality
