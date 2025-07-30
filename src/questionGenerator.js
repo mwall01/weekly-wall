@@ -1,11 +1,10 @@
 const questions = [
-    'You are hosting the team for a dinner party. What dish do you make that knocks it out of the park every time?',
-    'Guinness, Murphy\'s or Beamish?',
-    'What is your favourite pub?',
-    'Favourite place you have visited in Ireland?',
+    // 'You are hosting the team for a dinner party. What dish do you make that knocks it out of the park every time?',
+    'Guinness, Murphy\'s or Beamish - rank 1st to 3rd?',
+    // 'What is your favourite pub?',
     'What is your favourite park?',
-    'What 80s-90s classic song would be your Montage song?',
-    'What other job in Squarespace outside of QA would you like to try out?',
+    // 'What 80s-90s classic song would be your Montage song?',
+    // 'What other job in Squarespace outside of QA would you like to try out?',
 ];
 
 // Functionality
