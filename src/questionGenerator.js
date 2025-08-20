@@ -1,15 +1,13 @@
 const questions = [
     // 'You are hosting the team for a dinner party. What dish do you make that knocks it out of the park every time?',
-    'Guinness, Murphy\'s or Beamish - rank 1st to 3rd?',
+    //'Guinness, Murphy\'s or Beamish - rank 1st to 3rd?',
     // 'What is your favourite pub?',
-    'What is your favourite park?',
+    //'What is your favourite park?',
     // 'What 80s-90s classic song would be your Montage song?',
-    // 'What other job in Squarespace outside of QA would you like to try out?',
     'What is your favourite movie soundtrack? (instrumental or curated)',
     'If you didn\'t work in tech, and money was no object, what job would you like to do every day?',
     'What is a strange food combo that you love?',
-    'Who would play you in a movie?',
-    'If you could be a character from any TV show, who would you be and why?',
+    'If you had to eat £1000 worth of a fast food chain in 24 hours for a £1000000, what\'s the chain and the plan?',
 ];
 
 // Functionality
