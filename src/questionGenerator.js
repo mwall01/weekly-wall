@@ -1,13 +1,12 @@
 const questions = [
-    // 'You are hosting the team for a dinner party. What dish do you make that knocks it out of the park every time?',
-    //'Guinness, Murphy\'s or Beamish - rank 1st to 3rd?',
-    // 'What is your favourite pub?',
-    //'What is your favourite park?',
-    // 'What 80s-90s classic song would be your Montage song?',
-    'What is your favourite movie soundtrack? (instrumental or curated)',
-    'If you didn\'t work in tech, and money was no object, what job would you like to do every day?',
-    'What is a strange food combo that you love?',
-    'If you had to eat £1000 worth of a fast food chain in 24 hours for a £1000000, what\'s the chain and the plan?',
+  'What is your favourite movie soundtrack? (instrumental or curated)',
+  'If you didn\'t work in tech, and money was no object, what job would you like to do every day?',
+  'What is a strange food combo that you love?',
+  'What is your favourite holiday destination?',
+  'What is your favourite way to spend a weekend?',
+  'What is your favourite book or author?',
+  'What is your favourite hobby or pastime?',
+  'What is your favourite type of music or band?', 
 ];
 
 // Functionality
