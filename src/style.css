@@ -46,14 +46,14 @@ button:active {
 }
 
 #generateButtonContainer {
-  opacity: 0.5;
+  opacity: 0.8;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 #questionContainer {
-  opacity: 0.5;
+  opacity: 0.8;
   margin: 20px auto;
   padding: 15px;
   background-color: hwb(0 65% 35%);
@@ -63,7 +63,7 @@ button:active {
 }
 
 #questionContainer p {
-  opacity: 0.5;
+  opacity: 0.8;
   font-size: 38px;
   color: #ffffff;
   margin: 0;
