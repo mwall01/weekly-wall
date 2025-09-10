@@ -1,12 +1,7 @@
 const questions = [
-  'What is your favourite movie soundtrack? (instrumental or curated)',
-  'If you didn\'t work in tech, and money was no object, what job would you like to do every day?',
-  'What is a strange food combo that you love?',
   'What is your favourite holiday destination?',
   'What is your favourite way to spend a weekend?',
   'What is your favourite book or author?',
-  'What is your favourite hobby or pastime?',
-  'What is your favourite type of music or band?', 
 ];
 
 // Functionality
