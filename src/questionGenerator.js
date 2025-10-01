@@ -3,6 +3,9 @@ const questions = [
   'What is your favourite way to spend a weekend?',
   'What is your favourite book or author?',
   'Cut a sandwich in half: diagonally or vertically?',
+  'What\'s your favourite pro-life hack?',
+  'What\'s your favourite product?',
+  'What\'s your favourite sauce/condiment?',
 ];
 
 // Functionality
