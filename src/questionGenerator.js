@@ -1,12 +1,12 @@
 const questions = [
-  'What is your favourite holiday destination?',
-  'What is your favourite way to spend a weekend?',
-  'What is your favourite book or author?',
-  'Cut a sandwich in half: diagonally or vertically?',
-  'What\'s your favourite pro-life hack?',
-  'What\'s your favourite product?',
-  'What\'s your favourite sauce/condiment?',
-];
+  'What is the most random celebrity encounter you have had?',
+  'What is your favourite song to sing in the car?',
+  'What is your favourite thing to secretly judge people for?',
+  'What is your go-to cinema snack?',
+  'What\'s your least favourite season?',
+  'Would you prefer to communicate only through dramatic whispers, or only through incredibly loud singing'
+  
+  ];
 
 // Functionality
 
