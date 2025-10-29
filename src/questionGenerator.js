@@ -1,14 +1,10 @@
 const questions = [
   'What is the most random celebrity encounter you have had?',
   'What is your favourite song to sing in the car?',
-  'What is your favourite thing to secretly judge people for?',
   'What is your go-to cinema snack?',
-  'What\'s your least favourite season?',
+  'What is your favourite horror film/show?',
   'Would you prefer to communicate only through dramatic whispers, or only through incredibly loud singing'
-  
-  ];
-
-// Functionality
+];
 
 function getRandomQuestionFromArray(questionArray) {
   const randomIndex = Math.floor(Math.random() * questionArray.length);
