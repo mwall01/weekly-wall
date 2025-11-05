@@ -1,6 +1,6 @@
 const questions = [
   'What is the most random celebrity encounter you have had?',
-  'What is your favourite song to sing in the car?',
+  'What is your favorite item in McDonalds',
   'What is your go-to cinema snack?',
   'What is your favourite horror film/show?',
   'Would you prefer to communicate only through dramatic whispers, or only through incredibly loud singing'
