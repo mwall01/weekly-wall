@@ -2,7 +2,7 @@
   "name": "your-project",
   "version": "1.0.0",
   "scripts": {
-    "start": "open src/weekly-wall.html",
+    "start": "open site/index.html",
     "lint": "eslint ."
   },
   "devDependencies": {
