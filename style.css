@@ -1,0 +1,237 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 54px;
+  background-image: url('../assets/enya-winter.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  transition: transform 1s ease;
+}
+
+h1 {
+  color: hwb(0 2% 52%);
+  margin-top: 75px;
+  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-stroke-width: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 44px;
+  background-color: #a1450b;
+  color: hwb(0 100% 0% / 0.998);
+  border: solid #451f08;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 1s ease, transform 1s ease;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #592404;
+  -webkit-text-fill-color: #ffffff;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.spotify-embed {
+  position: relative;
+  opacity: 0.5;
+  bottom: 20%; 
+}
+
+#generateButtonContainer {
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#questionContainer {
+  opacity: 0.8;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: hwb(0 65% 35%);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+}
+
+#questionContainer p {
+  opacity: 0.8;
+  font-size: 38px;
+  color: #ffffff;
+  margin: 0;
+}
+
+#imageContainer {
+  margin: 20px auto;
+}
+
+#imageContainer img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block; /* Ensure the image does not have extra space below */
+}
+
+#loadingText::after {
+  content: '';
+  display: inline-block;
+  animation: loading 2s infinite;
+}
+
+#sailAwayIcon {
+  width: 2px;
+  height: 2px;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+@keyframes loading {
+  0% {
+    content: ' ';
+  }
+  25% {
+    content: '.';
+  }
+  50% {
+    content: '..';
+  }
+  75% {
+    content: '...';
+  }
+}
+
+/* brick animation */ 
+
+@keyframes brickfall {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: 100vh;
+    opacity: 1;
+  }
+}
+
+@keyframes bricksway {
+  0% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: 50px;
+  }
+  50% {
+    margin-left: -50px;
+  }
+  75% {
+    margin-left: 50px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+
+#brick-container {  
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  transition: opacity 500ms;
+  width: 100%;
+}
+
+.brick {
+  animation: brickfall ease-in infinite, bricksway ease-in-out infinite;
+  color: rgb(254, 254, 254);
+  position: absolute;
+}
+
+/*video*/
+body {margin:2rem;}
+
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
+/* Video Lightbox */
+#fade {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1001;
+}
+
+#light {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
+  background: #FFF;
+  z-index: 1002;
+  overflow: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.boxclose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  background: #222;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1003;
+}
+
+.boxclose:before {
+  content: "×";
+}
+
+#fade:hover ~ #boxclose {
+  display:none;
+}
+
+#video {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 100vh; /* Ensures the video does not exceed the viewport height */
+}
