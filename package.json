@@ -2,7 +2,7 @@
   "name": "your-project",
   "version": "1.0.0",
   "scripts": {
-    "start": "open site/index.html",
+    "start": "open index.html",
     "lint": "eslint ."
   },
   "devDependencies": {
