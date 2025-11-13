@@ -11,8 +11,3 @@ export interface PubSelection {
   pub: string;
 }
 
-export interface AppState {
-  // Placeholder for future state shared across modules
-}
-
-
