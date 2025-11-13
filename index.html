@@ -15,7 +15,7 @@
   <h1><br></h1>
 
   <div id="light">
-    <a class="boxclose" id="boxclose"></a>
+    <a aria-label="Close video" class="boxclose" id="boxclose"></a>
     <video id="video" width="1000" controls>
         <source src="../assets/enya-greeting-1.mp4" type="video/mp4">
         <!--Browser does not support <video> tag -->
@@ -23,14 +23,15 @@
   </div>
   <div id="fade"></div>
   <iframe
+    title="Wheel of Names"
     src="https://wheelofnames.com/rkt-6g5"
     width="500"
     height="500"
   ></iframe>
   <div>
-    <button href="#" id="greetingsButton">Greetings 🏰 ☘️</button>
+    <button aria-labelledby="Greetings button" href="#" id="greetingsButton">Greetings 🏰 ☘️</button>
   </div>
-  <div id="generateButtonContainer">
+  <div aria-label="Generate button" id="generateButtonContainer">
       <button id="generateButton">🧱🧱🧱🧱🧱</button>
   </div>
   <div id="questionContainer"></div>
