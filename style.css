@@ -5,6 +5,7 @@ body {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -234,4 +235,36 @@ body {margin:2rem;}
   height: auto;
   display: block;
   max-height: 100vh; /* Ensures the video does not exceed the viewport height */
+}
+
+/* ----- MOBILE ----- */
+@media (max-width: 600px) {
+
+  body {
+    font-size: 28px;
+    padding: 10px;
+  }
+
+  h1 {
+    margin-top: 30px;
+    -webkit-text-stroke-width: 2px;
+  }
+
+  button {
+    font-size: 24px;
+    padding: 8px 16px;
+  }
+
+  #questionContainer p {
+    font-size: 22px;
+  }
+
+  iframe {
+    width: 100% !important;
+    height: 350px !important;
+  }
+
+  #video {
+    max-height: 60vh;
+  }
 }
