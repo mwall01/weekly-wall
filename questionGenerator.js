@@ -1,7 +1,6 @@
 const questions = [
   'What is your favorite item in McDonalds',
   'What is your favourite horror film/show?',
-  'Would you prefer to communicate only through dramatic whispers, or only through incredibly loud singing',
   'For $4.9million right now, would you cut off your left foot?',
   'You must remove one everyday object from existence forever. Shoes? Spoons? Doorbells? Which one goes?',
   'You can only eat foods that start with the first letter of your name for a full month. How badly are you suffering?',
