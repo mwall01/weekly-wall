@@ -1,9 +1,9 @@
 const questions = [
-  'What is your favorite item in McDonalds',
-  'What is your favourite horror film/show?',
   'For $4.9million right now, would you cut off your left foot?',
-  'You must remove one everyday object from existence forever. Shoes? Spoons? Doorbells? Which one goes?',
   'You can only eat foods that start with the first letter of your name for a full month. How badly are you suffering?',
+  'What is your favourite Christmas film',
+  'What is the best Christmas present you ever got?',
+  'What is your favourite Christmas song?',
 ];
 
 function getRandomQuestionFromArray(questionArray) {
