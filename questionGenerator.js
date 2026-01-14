@@ -1,6 +1,7 @@
 const questions = [
   'Do you ever nap?',
-  'If you had to pick 1 pub or chipper in Dublin to be the only one you could visit for the rest of your life, which one is it?',
+  'You have to pick one other person on this call to be on time for a meeting with you next week. If they are on time, you get EU10,000. If they are late you owe them EU10,000. Who do you pick?',
+  'What extras would you have built into your bathroom mirror? (eg bluetooth speaker, defogger, lights, etc)',
 ];
 
 function getRandomQuestionFromArray(questionArray) {
