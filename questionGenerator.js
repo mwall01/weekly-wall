@@ -1,6 +1,7 @@
 const questions = [
   'You have to pick one other person on this call to be on time for a meeting with you next week. If they are on time, you get EU10,000. If they are late you owe them EU10,000. Who do you pick?',
   'What extras would you have built into your bathroom mirror? (eg bluetooth speaker, defogger, lights, etc)',
+  'You get 10000 for every chicken you can put in an elevator with you, but if any of them touch you you lose everything. How many chickens would you bring?',
 ];
 
 function getRandomQuestionFromArray(questionArray) {
