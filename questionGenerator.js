@@ -8,7 +8,7 @@ const questions = [
   'Sleeping with socks ON or socks absolutely OFF?',
   'Eating pizza: Eating the crust OR leaving the crust on the plate like a monster?',
   'Screen aesthetic: Dark mode everything OR light mode like a complete psychopath?',
-  'Tripping in public and pretending to jog OR tripping and looking back at the flat ground like it's the sidewalk's fault?',
+  'Tripping in public and pretending to jog OR tripping and looking back at the flat ground like it\'s the sidewalk\'s fault?',
   'Taking a call on speakerphone while holding the phone like a piece of toast; crime or ok?',
   'Window seat to lean and sleep OR aisle seat for ultimate bathroom freedom? when traveling?',
 ];
