@@ -1,5 +1,16 @@
 const questions = [
-  '???'
+  'Voice notes: Elite tier communication OR an absolute crime?',
+  'Inbox management: Inbox zero OR 14,392 unread emails and pure chaos?',
+  'Morning routine: Wake up 5 minutes before you have to log on/leave OR wake up 2 hours early to "enjoy the morning"?',
+  'Snacking: Savory/salty OR sweet?',
+  'Would you rather let this specific group control your Spotify algorithm for a month, OR let this group pick your outfits for a week?',
+  'Iced coffee in the dead of winter OR hot coffee in the middle of a heatwave?',
+  'Sleeping with socks ON or socks absolutely OFF?',
+  'Eating pizza: Eating the crust OR leaving the crust on the plate like a monster?',
+  'Screen aesthetic: Dark mode everything OR light mode like a complete psychopath?',
+  'Tripping in public and pretending to jog OR tripping and looking back at the flat ground like it\'s the sidewalk\'s fault?',
+  'Taking a call on speakerphone while holding the phone like a piece of toast; crime or ok?',
+  'Window seat to lean and sleep OR aisle seat for ultimate bathroom freedom? when traveling?',
 ];
 
 function getRandomQuestionFromArray(questionArray) {
